@@ -1,2 +1,6 @@
-let a=new Date();
-console.log(a);
+function getFormattedDate() {
+    let date=new Date();
+    return date
+}
+
+console.log(getFormattedDate());
